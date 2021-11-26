@@ -1,0 +1,55 @@
+.footer{
+
+    width: 100%;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        p{
+            width: 98%;
+        }
+        
+
+    }
+    &__section {
+
+        padding: 4rem 0;
+        a{
+            color:#0070c1;
+            &:hover{
+                color: var(--blue);
+            }
+        }
+
+
+        &--first {
+            background-color: var(--lightGreen);
+            color: var(--black);
+            font-size: 1.5rem;
+            text-align: justify;
+                
+        }
+        &--second {
+            background-color: var(--darkGreen);
+            color: var(--white);
+            font-size: 1.8rem;
+            small {
+                display: block;
+                font-weight: 400;
+                width: 100%;
+            }
+    
+        }
+    }
+    .button{
+        align-self: flex-end;
+        background-color:#DAE8FC;
+        border-radius: 0.5rem;
+        box-shadow: 1px 1px 4px rgba(41, 40, 40, 0.2);
+        padding: 1rem;    
+    }
+    
+
+}

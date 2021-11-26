@@ -1,0 +1,37 @@
+.header{
+    &__container{
+        width: 100%;
+        margin: 4rem 0; // 1 rem equivale a 10px
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        display: flex;
+        align-items: flex-end;
+
+        &--state{           
+
+            img{
+                margin-right: 1rem;
+            }
+        }    
+    
+        &--ebac{
+
+        }
+
+    }
+    &__city{
+        font-size: 1.8rem;
+        line-height: 1.7rem;
+        font-weight: 700;
+        margin-left: 1.2rem;
+    }
+    &__span{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        font-weight: 400;
+        margin-right: 1.2rem;
+    }
+}
