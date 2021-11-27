@@ -14,6 +14,7 @@ Produzindo uma aplicação completa utilizando o React.
 <code><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" width="50"/> </code>
 <code><img src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white" width="55"/> </code>
 <code><img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" width="55"/> </code>
+<code><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" width="75"/> </code>
 
 
 
