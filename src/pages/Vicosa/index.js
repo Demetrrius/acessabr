@@ -1,7 +1,12 @@
+
 import React, { useState } from 'react';
-import './styles.scss';
+import './vicosa.scss'
 import imageDestack from '../../images/imagem-destaque.svg';
 import Pills from '../../components/Pills';
+
+
+{/*--------- COMPONENTE PAGES/VIÇOSA/INDEX ---------*/}
+
 
 const PLACES = [
     'Praça',
@@ -12,10 +17,10 @@ const PLACES = [
     'Farmácia',
     'Loja',
     'Morro',
-    'Exposição',
+    'Universidade',
     'Quadras'
 ]
-const Home = props => {
+const Caxambu = props => {
 
     const [selectedPill, setSelectedPill] = useState('')
 
@@ -28,7 +33,7 @@ const Home = props => {
                 <div className="home__image home__image--destack hide-desktop">
                     <img src={imageDestack} alt="Imagem destaque cadeirante" />
                 </div>
-                <p className="home__text">Nossa missão é facilitar o encontro entre lugares inclusivos e pessoas que buscam alternativas culturais para sair de casa, com a mobilidade que todo cidadão precisa.</p>
+                <p className="home__text">Viçosa - Nossa missão é facilitar o encontro entre lugares inclusivos e pessoas que buscam alternativas culturais para sair de casa, com a mobilidade que todo cidadão precisa.</p>
                 <p className="home__text">Checamos 10 itens essenciais de acessibilidade para pessoas com deficiência em diversos pontos da cidade.</p> 
 
                 <div className="home__pills">
@@ -59,4 +64,4 @@ const Home = props => {
 
 }
 
-export default Home;
+export default Caxambu;
