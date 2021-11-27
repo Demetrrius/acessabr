@@ -1,3 +1,5 @@
+@import '../../styles/responsive';
+
 @mixin displeyFlexRow($width: 100%) {
     width: 100%;
     display: flex;
@@ -13,7 +15,10 @@
     &__header{
         @include displeyFlexRow();
         margin: 0 0 4rem;
-        
+
+        @media (max-width: $mobileLarge){            
+            flex-wrap: wrap;
+        }        
     }
     &__title{
         font-size: 3.2rem;
@@ -44,6 +49,15 @@
         }
 
 
-    }
+    }    
+
+    @media (max-width: $mobileLarge){  
+        &__header{
+            flex-wrap: wrap;
+        }
+        &__select{
+            margin-top: 1rem;
+        }          
+    }    
     
 }
