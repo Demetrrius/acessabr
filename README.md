@@ -1,6 +1,6 @@
 ## React Dev Week da EBAC!
 
-Sob a tutela de Marcelo Cavalcante, Tech Leader na Dasa e professor da EBAC
+Sob a tutela de Marcelo Cavalcante e oritenção de Luiz F. Lira.
 
 Produzindo uma aplicação completa utilizando o React.
 
