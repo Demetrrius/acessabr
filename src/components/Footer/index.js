@@ -18,7 +18,7 @@ function Footer(){
                 <p>
                     <strong>Projeto Elaborado durante a RDW <a href="https://ebac.art.br/" target="_blank">E.B.A.C</a> 2021</strong>
                     <small>
-                        Projetado por <a href="https://linkedin.com/in/demetriustobias" target="_black">Demetrius Tobias</a>, com auxílio de <a href="https://www.linkedin.com/in/luizflira/" target="_blank">CP Luiz</a>, desenvolvido por Aluno EBAC.
+                        Projetado por <a href="https://linkedin.com/in/demetriustobias" target="_black">Demetrius Tobias</a>, com auxílio de <a href="https://www.linkedin.com/in/luizflira/" target="_blank">Luiz F. Lira</a>, desenvolvido por Aluno EBAC.
                         <p>GitHub<a href="https://github.com/Demetrrius" target="_blank"> Demetrius</a></p> 
                     </small>  
                 </p> 
