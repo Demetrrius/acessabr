@@ -1,12 +1,9 @@
-
-import React, { useState } from 'react';
-import './vicosa.scss'
+import React, { useContext, useEffect, useState } from 'react';
+import './home.scss';
 import imageDestack from '../../images/imagem-destaque.svg';
 import Pills from '../../components/Pills';
-
-
-{/*--------- COMPONENTE PAGES/VIÇOSA/INDEX ---------*/}
-
+import { useParams } from 'react-router';
+import { LocationContext } from '../../contexts/LocationContext';
 
 const PLACES = [
     'Praça',
@@ -17,23 +14,29 @@ const PLACES = [
     'Farmácia',
     'Loja',
     'Morro',
-    'Universidade',
+    'Exposição',
     'Quadras'
 ]
-const Caxambu = props => {
+const Home = ( ) => {
+    const { city, state } = useParams()    
+    const [ selectedPill, setSelectedPill ] = useState('')
+    const { setCity, setState } = useContext(LocationContext)
 
-    const [selectedPill, setSelectedPill] = useState('')
+    useEffect(() => {
+       setCity(city)
+       setState(state)
+    },[city,state])
 
     return(
         <main id="main-content" className="home__container">
             <div className="home__col">
-                <h1 className="home__title">{props.city} para todos</h1> 
+                <h1 className="home__title">{ city } para todos</h1> 
 
                 {/*HIDE DESKTOP*/}
                 <div className="home__image home__image--destack hide-desktop">
                     <img src={imageDestack} alt="Imagem destaque cadeirante" />
                 </div>
-                <p className="home__text">Viçosa - Nossa missão é facilitar o encontro entre lugares inclusivos e pessoas que buscam alternativas culturais para sair de casa, com a mobilidade que todo cidadão precisa.</p>
+                <p className="home__text">Nossa missão é facilitar o encontro entre lugares inclusivos e pessoas que buscam alternativas culturais para sair de casa, com a mobilidade que todo cidadão precisa.</p>
                 <p className="home__text">Checamos 10 itens essenciais de acessibilidade para pessoas com deficiência em diversos pontos da cidade.</p> 
 
                 <div className="home__pills">
@@ -41,11 +44,9 @@ const Caxambu = props => {
                         PLACES.map((item) => (
                             <Pills 
                                 local={item}
-                                selected={selectedPill == item }
-                                onClick={() => setSelectedPill(item) }
-                            
+                                selected={selectedPill === item }
+                                onClick={() => setSelectedPill(item) }                            
                             />
-
                         ))
                     }       
                 </div>
@@ -56,12 +57,9 @@ const Caxambu = props => {
                 <div className="home__image home__image--destack hide-mobile">
                     <img src={imageDestack} alt="Imagem destaque cadeirante" />
                 </div>
-            </div>
-
-            
+            </div>            
         </main>
     )
-
 }
 
-export default Caxambu;
+export default Home;
