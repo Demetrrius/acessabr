@@ -1,0 +1,117 @@
+
+{   
+    "places": [
+        {
+            "id": 1,
+            "name": "Parque de Caxambu",              
+            "image": "/places/parque-das-aguas.jpg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "location":{
+                "lat": "1234",
+                "long": "4321"
+            },
+            "facilities": [
+                { "item": 1, "status": true },
+                { "item": 2, "status": false},
+                { "item": 3, "status": true },
+                { "item": 4, "status": false },
+                { "item": 5, "status": true },
+                { "item": 6, "status": true },
+                { "item": 7, "status": true },
+                { "item": 8, "status": true },
+                { "item": 9, "status": true },
+                { "item": 10, "status": true }
+            ]                              
+        },  
+        {
+            "id": 2,
+            "name": "Praça 16 Setembro", 
+            "image": "/places/praca-16-setembro.jpg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "location":{
+                "lat": "1234",
+                "long": "4321"
+            },
+            "facilities": [
+                { "item": 1, "status": false },
+                { "item": 2, "status": true },
+                { "item": 3, "status": true },
+                { "item": 4, "status": true },
+                { "item": 5, "status": true },
+                { "item": 6, "status": true },
+                { "item": 7, "status": true },
+                { "item": 8, "status": true },
+                { "item": 9, "status": true },
+                { "item": 10, "status": false }
+            ]
+        },     
+        {
+            "id": 3,
+            "name": "Hotel Gloria", 
+            "image": "/places/hotel-gloria.jpg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "location":{
+                "lat": "1234",
+                "long": "4321"
+
+            },
+            "facilities": [
+                { "item": 1, "status": true },
+                { "item": 2, "status": true },
+                { "item": 3, "status": true },
+                { "item": 4, "status": true },
+                { "item": 5, "status": true },
+                { "item": 6, "status": true },
+                { "item": 7, "status": true },
+                { "item": 8, "status": true },
+                { "item": 9, "status": true },
+                { "item": 10, "status": true }
+            ]
+        },         
+        {
+            "id": 4,
+            "name": "Morro de Caxambu",  
+            "image": "/places/morro.jpg",   
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "location":{
+                "lat": "1234",
+                "long": "4321"
+            },
+            "facilities": [
+                { "item": 1, "status": true },
+                { "item": 2, "status": true },
+                { "item": 3, "status": true },
+                { "item": 4, "status": true },
+                { "item": 5, "status": true },
+                { "item": 6, "status": true },
+                { "item": 7, "status": true },
+                { "item": 8, "status": true },
+                { "item": 9, "status": true },
+                { "item": 10, "status": true }
+            ]
+        },     
+        {
+            "id": 5,
+            "name": "Calçadão",  
+            "image": "/places/calcadao-de-caxambu.jpg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "location":{
+                "lat": "1234",
+                "long": "4321"
+            } ,
+            "facilities": [                
+                {"item": 1, "status": true },   
+                {"item": 2, "status": true },
+                {"item": 3, "status": true },
+                {"item": 4, "status": true },
+                {"item": 5, "status": true },
+                {"item": 6, "status": true },
+                {"item": 7, "status": true },
+                {"item": 8, "status": true },
+                {"item": 9, "status": true },
+                {"item": 10, "status": true }
+            ]
+        }           
+    ]
+}
+

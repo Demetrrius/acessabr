@@ -5,7 +5,7 @@ import Pills from '../../components/Pills';
 import { useParams } from 'react-router';
 import { LocationContext } from '../../contexts/LocationContext';
 
-const PLACES = [
+const Places = [
     'Praça',
     'Parque',
     'Igreja',
@@ -41,7 +41,7 @@ const Home = ( ) => {
 
                 <div className="home__pills">
                     {
-                        PLACES.map((item) => (
+                        Places.map((item) => (
                             <Pills 
                                 local={item}
                                 selected={selectedPill === item }
