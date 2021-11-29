@@ -16,7 +16,7 @@ function CuratorItem(){
             <div className="curator__details">
                 <h3>Demetrius Tobias</h3>
                 <h6>Criador</h6>
-                <p>Analistas de sistemas, instrutor de informática e analista de suporte técnico</p>
+                <p>Analistas de sistemas, instrutor de informática e analista de suporte técnico.</p>
             </div>
         </div>
     )

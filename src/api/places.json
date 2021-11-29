@@ -4,8 +4,10 @@
         {
             "id": 1,
             "name": "Parque de Caxambu",              
-            "image": "/places/parque-das-aguas.jpg",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "image": "/places/parque-das-aguas.jpg",            
+            "category": "Parque",
+            "description": "É o local onde existe maior diversidade de águas do mundo, 12 fontes de águas minerais medicinais. A beleza paisagística do Parque pode ser apreciada em bosques, jardins e alamedas em estilo inglês, valorizando a paisagem natural, com formas curvas e arredondadas em seus caminhos, utilizando gramados extensos, valorizando as ondulações de seu relevo.",           
+            "link":"http://www.caxambu.mg.gov.br/v2/atrativos_turisticos/",
             "location":{
                 "lat": "1234",
                 "long": "4321"
@@ -20,14 +22,16 @@
                 { "item": 7, "status": true },
                 { "item": 8, "status": true },
                 { "item": 9, "status": true },
-                { "item": 10, "status": true }
+                { "item": 10, "status": false}
             ]                              
         },  
         {
             "id": 2,
             "name": "Praça 16 Setembro", 
             "image": "/places/praca-16-setembro.jpg",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "category": "Praça",
+            "description": "Tombada pelo Patrimônio Histórico, a Praça 16 de Setembro possui amplos jardins floridos e árvores frondosas que permitem aos visitantes e moradores, momentos de descanso e tranquilidade, em meio a natureza. Duas obras esculpidas pelo artista português, Chico Cascateiro, trazem um charme especial à Praça: a Cascata do Coreto e a Fonte Luminosa.",
+            "link":"http://www.caxambu.mg.gov.br/v2/atrativos_turisticos/",
             "location":{
                 "lat": "1234",
                 "long": "4321"
@@ -49,7 +53,9 @@
             "id": 3,
             "name": "Hotel Gloria", 
             "image": "/places/hotel-gloria.jpg",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "category": "Hotel",
+            "description": "Localizado em frente ao Parque das Águas, o luxuoso Hotel Glória oferece duas piscinas, uma quadra de esportes, centro de bem-estar e casa noturna. Também há um restaurante e um pub escocês no local. Possui 4 estrelas",
+            "link":"https://www.hotelgloriacaxambu.com.br/",
             "location":{
                 "lat": "1234",
                 "long": "4321"
@@ -65,14 +71,16 @@
                 { "item": 7, "status": true },
                 { "item": 8, "status": true },
                 { "item": 9, "status": true },
-                { "item": 10, "status": true }
+                { "item": 10, "status": false}
             ]
         },         
         {
             "id": 4,
-            "name": "Morro de Caxambu",  
+            "name": "Mirante de Caxambu",  
             "image": "/places/morro.jpg",   
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "category": "Morro",
+            "description": "Do morro do Caxambu, que possui aproximadamente 1.090 metros de altura, tem-se magnífica vista da cidade, entorno e da Serra da Mantiqueira, como o Parque Estadual da Serra do Papagaio e o Parque Nacional do Itatiaia. Possui características de um vulcão extinto, o que parece se confirmar em razão da natureza calcária do solo. No seu topo estão um Cruzeiro, de 1929, e uma estátua de um Cristo Redentor, monumento inaugurado em 1961. ",
+            "link":"http://www.caxambu.mg.gov.br/v2/atrativos_turisticos/",
             "location":{
                 "lat": "1234",
                 "long": "4321"
@@ -87,14 +95,16 @@
                 { "item": 7, "status": true },
                 { "item": 8, "status": true },
                 { "item": 9, "status": true },
-                { "item": 10, "status": true }
+                { "item": 10, "status": false}
             ]
         },     
         {
             "id": 5,
             "name": "Calçadão",  
             "image": "/places/calcadao-de-caxambu.jpg",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "category": "Calçadão",
+            "description": "É o local onde acontece os principais eventos da Cidade. Carnaval, shows, eventos culturais e muitos mais.",
+            "link":"http://www.caxambu.mg.gov.br/v2/atrativos_turisticos/",
             "location":{
                 "lat": "1234",
                 "long": "4321"
@@ -109,7 +119,7 @@
                 {"item": 7, "status": true },
                 {"item": 8, "status": true },
                 {"item": 9, "status": true },
-                {"item": 10, "status": true }
+                {"item": 10, "status": false}
             ]
         }           
     ]
