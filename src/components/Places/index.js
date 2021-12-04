@@ -4,7 +4,7 @@ import Slider from '../Slider'
 import './places.scss';
 
 const Places = () => {    
-    const {filteredPlace, setFilteredPlace} = useContext(FilterContext)    
+    const { filteredPlace, setFilteredPlace} = useContext(FilterContext)    
     return(
         <section className="places">
             <div className="places__header">
@@ -26,6 +26,7 @@ const Places = () => {
 
     )
 }
+
 
 export default Places
 

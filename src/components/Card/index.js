@@ -12,13 +12,16 @@ import iconPiso from '../../images/icon-piso-tatil.svg';
 import iconPorta from '../../images/icon-porta-larga.svg';
 import iconRampa from '../../images/icon-rampa.svg';
 
+
 const Card = ({item}) => {
     const imagePath = require('../../images' + item.image)
     return(
         <div className="card__container">
+            
             <div className="card__image">
                 <img src={imagePath.default} alt={item.name} title={item.name} />
-            </div>            
+            </div>
+            <div className="card__content">            
                 <h3>{item.name}</h3>
                 <ul className="card__facilities">                    
                     <li className={`card__facilities__item ${item.facilities[0]} ${!item.facilities[0].status ? 'card__facilities__item--unchecked' : ''}`} >
@@ -84,6 +87,7 @@ const Card = ({item}) => {
                 </ul>
                 <p>{item.description}</p>
                 <a href={item.link} target="_blank" class="card__button button"> Como chegar</a>     
+            </div>
         </div>    
     )
 }

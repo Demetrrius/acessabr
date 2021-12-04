@@ -7,6 +7,7 @@ import Card from '../Card';
 import api from '../../config/api';
 
 
+
 SwiperCore.use(Pagination)
 
 function Slider(){
@@ -26,8 +27,7 @@ function Slider(){
     }, [filteredPlace])
 
     return(
-            <Swiper 
-
+        <Swiper 
             breakpoints={{
                 300:{
                     slidesPerView: 1
@@ -44,8 +44,7 @@ function Slider(){
                 places.map(item => (
                     <SwiperSlide key={item.id} >
                         <Card key={item.id} item={item} />
-                    </SwiperSlide>            
-
+                    </SwiperSlide> 
                 ))
             }
         </Swiper>

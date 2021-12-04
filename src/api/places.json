@@ -5,7 +5,7 @@
             "name": "Parque de Caxambu",              
             "image": "/places/parque-das-aguas.jpg",            
             "category": "Parque",
-            "description": "É o local onde existe maior diversidade de águas do mundo, 12 fontes de águas minerais medicinais. A beleza paisagística do Parque pode ser apreciada em bosques, jardins e alamedas em estilo inglês, valorizando a paisagem natural, com formas curvas e arredondadas em seus caminhos, utilizando gramados extensos, valorizando as ondulações de seu relevo.",           
+            "description": "É o local onde existe maior diversidade de águas do mundo, 12 fontes de águas minerais medicinais.",           
             "link":"http://www.caxambu.mg.gov.br/v2/atrativos_turisticos/",
             "location":{
                 "lat": "1234",
@@ -29,7 +29,7 @@
             "name": "Praça 16 Setembro", 
             "image": "/places/praca-16-setembro.jpg",
             "category": "Praça",
-            "description": "Tombada pelo Patrimônio Histórico, a Praça 16 de Setembro possui amplos jardins floridos e árvores frondosas que permitem aos visitantes e moradores, momentos de descanso e tranquilidade, em meio a natureza. Duas obras esculpidas pelo artista português, Chico Cascateiro, trazem um charme especial à Praça: a Cascata do Coreto e a Fonte Luminosa.",
+            "description": "Tombada pelo Patrimônio Histórico, a Praça 16 de Setembro possui amplos jardins floridos e árvores frondosas que permitem aos visitantes e moradores.",
             "link":"http://www.caxambu.mg.gov.br/v2/atrativos_turisticos/",
             "location":{
                 "lat": "1234",
@@ -78,7 +78,7 @@
             "name": "Mirante de Caxambu",  
             "image": "/places/morro.jpg",   
             "category": "Morro",
-            "description": "Do morro do Caxambu, que possui aproximadamente 1.090 metros de altura, tem-se magnífica vista da cidade, entorno e da Serra da Mantiqueira, como o Parque Estadual da Serra do Papagaio e o Parque Nacional do Itatiaia. Possui características de um vulcão extinto, o que parece se confirmar em razão da natureza calcária do solo. No seu topo estão um Cruzeiro, de 1929, e uma estátua de um Cristo Redentor, monumento inaugurado em 1961. ",
+            "description": "Do morro do Caxambu, que possui aproximadamente 1.090 metros de altura, tem-se magnífica vista da cidade, entorno e da Serra da Mantiqueira, como o Parque Estadual da Serra do Papagaio e o Parque Nacional do Itatiaia. ",
             "link":"http://www.caxambu.mg.gov.br/v2/atrativos_turisticos/",
             "location":{
                 "lat": "1234",

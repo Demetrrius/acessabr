@@ -6,6 +6,9 @@ import { useParams } from 'react-router';
 import { LocationContext } from '../../contexts/LocationContext';
 import { FilterContext } from '../../contexts/FilterContext';
 
+
+
+
 const Places = [
     
     'Parque', 
@@ -28,8 +31,7 @@ const Home = ( ) => {
          if(item === 'Todos') {
              setFilteredPlace('')
         }
-    }
-    
+    }    
     useEffect(() => {
        setCity(city)
        setState(state)
